@@ -37,11 +37,11 @@ ntp_servers: ['0.us.pool.net.org','1.us.pool.net.org','2.us.pool.net.org']
 
 # Docker configuration
 docker_ee_url: 'https://storebits.docker.com/ee/linux/sub-bee89908-9360-4f5c-a3e2-e059a8f88605'
-rhel_version: '7.3'
+#rhel_version: '7.3'
 dtr_version: 'latest'
 ucp_version: 'latest'
 images_folder: '/docker-images'
-license_file: '/root/ansible-docker-ucp/license.lic'
+license_file: '/root/ansible-docker-ucp/docker_subscription.lic'
 ucp_username: 'admin'
 
 # Monitoring configuration
