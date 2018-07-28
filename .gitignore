@@ -1,2 +1,5 @@
 .vault_pass
-license.lic
+docker_subscription.lic
+dt_hosts
+dt_lab.yml
+dt*
