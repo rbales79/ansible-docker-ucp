@@ -1,12 +1,12 @@
 ## UCP
 [ucp_main]
-dt-ucp-0.hp.ilab.dti
+dt-ucp-0.hp.ilab.dti ip_addr='10.0.104.51/24'
 # dp-ucp-01 ip_addr='10.20.6.74/22' esxi_host='omnicube204165.cloud.local'
 
 [ucp]
-dt-ucp-0.hp.ilab.dti
-dt-ucp-1.hp.ilab.dti
-dt-ucp-2.hp.ilab.dti
+dt-ucp-0.hp.ilab.dti ip_addr='10.0.104.51/24'
+dt-ucp-1.hp.ilab.dti ip_addr='10.0.104.52/24'
+dt-ucp-2.hp.ilab.dti ip_addr='10.0.104.53/24'
 #dp-ucp-01 ip_addr='10.20.6.74/22' esxi_host='omnicube204165.cloud.local'
 #dp-ucp-02 ip_addr='10.20.6.75/22' esxi_host='omnicube204165.cloud.local'
 #dp-ucp-03 ip_addr='10.20.6.76/22' esxi_host='omnicube204165.cloud.local'
@@ -34,9 +34,9 @@ node_policy='dp-bronze'
 
 ## WORKER
 [worker]
-dt-worker-0.hp.ilab.dti
-dt-worker-1.hp.ilab.dti
-dt-worker-2.hp.ilab.dti
+dt-worker-0.hp.ilab.dti ip_addr='10.0.104.61/24'
+dt-worker-1.hp.ilab.dti ip_addr='10.0.104.62/24'
+dt-worker-2.hp.ilab.dti ip_addr='10.0.104.63/24'
 #dp-worker-01 ip_addr='10.20.6.77/22' esxi_host='omnicube204165.cloud.local'
 #dp-worker-02 ip_addr='10.20.6.78/22' esxi_host='omnicube204165.cloud.local'
 #dp-worker-03 ip_addr='10.20.6.79/22' esxi_host='omnicube204165.cloud.local'
@@ -49,7 +49,7 @@ node_policy='dp-bronze'
 
 ## LOAD BALANCERS
 [ucp_lb]
-dt-ucp-lb-0.hp.ilab.dti
+dt-ucp-lb-0.hp.ilab.dti ip_addr='10.0.104.60/24'
 #dp-ucp ip_addr='10.20.6.81/22' esxi_host='omnicube204165.cloud.local'
 
 [dtr_lb]
@@ -59,7 +59,7 @@ dt-ucp-lb-0.hp.ilab.dti
 #dp-worker ip_addr='10.20.6.82/22' esxi_host='omnicube204165.cloud.local'
 
 [lbs]
-dt-ucp-lb-0.hp.ilab.dti
+dt-ucp-lb-0.hp.ilab.dti ip_addr='10.0.104.60/24'
 #dp-ucp ip_addr='10.20.6.81/22' esxi_host='omnicube204165.cloud.local'
 #dp-dtr ip_addr='10.20.6.80/22' esxi_host='omnicube204165.cloud.local'
 #dp-worker ip_addr='10.20.6.82/22' esxi_host='omnicube204165.cloud.local'
